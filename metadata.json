@@ -1,0 +1,5 @@
+{
+  "name": "Copy of BikeAdvance PWA",
+  "description": "A Progressive Web App for tracking bike trips with offline storage, online sync, and GPS handling. Your trips are saved locally and synced to the cloud when you're online.",
+  "requestFramePermissions": []
+}
