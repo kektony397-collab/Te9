@@ -1,21 +1,28 @@
-
 {
   "short_name": "BikeAdvance",
   "name": "BikeAdvance PWA",
+  "description": "A Progressive Web App for tracking bike trips with offline storage, online sync, and GPS handling. Your trips are saved locally and synced to the cloud when you're online.",
   "icons": [
     {
       "src": "/logo192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any"
     },
     {
       "src": "/logo512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
+  "id": "/",
+  "scope": "/",
   "display": "standalone",
   "theme_color": "#4f46e5",
-  "background_color": "#f1f5f9"
+  "background_color": "#f1f5f9",
+  "orientation": "any",
+  "lang": "en",
+  "dir": "ltr"
 }
